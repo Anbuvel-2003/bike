@@ -1,0 +1,89 @@
+.overview{
+    height: 180px;
+    background: #0d5fec;
+   padding-top: 40px;
+}
+body{
+ background-color: #7ba1e3;   
+}
+.section{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+table,th,tr,td{
+    margin-left: 270px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border:1px dotted black;
+    width:1000px;
+    padding: 20px;
+}
+th{
+    background-color: #0d5fec;
+    text-align: center;
+}
+td{
+    background-color: #7ba1e3;
+    text-align: center;
+}
+.form-control{
+    width: 400px;
+}
+.form-select{
+    width: 400px;
+}
+.form-text{
+    width: 400px;
+    color: black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.grid-item{
+    padding: 5px;
+    margin-left: 100px;
+}
+.models{
+    padding-top:30px;
+}
+.but{
+    padding-top: 40px;
+}
+.grid-item input:focus{
+    outline: none;
+    border-color: black;
+
+}
+.grid-item.success input{
+    border-color: rgb(17, 231, 71);
+}
+.grid-item.error input{
+    border-color:red;
+}
+.grid-item i{
+    visibility: visible;
+    visibility: hidden;
+}
+.grid-item.success i.fa-check-circle{
+    color: rgb(17, 231, 71);
+    visibility: visible;
+}
+.grid-item.error i.fa-exclamation-circle{
+    color: red;
+    visibility: visible;
+}
+.grid-item small{
+    visibility: visible;
+    visibility: hidden;
+}
+.grid-item.success small{
+    color: rgb(17, 231, 71);
+     visibility: visible;  
+}
+.grid-item.error small{
+    color: red;
+     visibility: visible;  
+}
